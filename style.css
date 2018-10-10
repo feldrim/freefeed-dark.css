@@ -37,6 +37,8 @@ a
 , .box-header-friends
 , .box-header-groups
 , .box-header-search
+, .create-post
+, .profile-controls
   { border-bottom-color : #666 !important }
 
 .post-editor .post-textarea
