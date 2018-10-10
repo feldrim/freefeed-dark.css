@@ -52,6 +52,7 @@ a
 , .btn-default
 , .open > .btn-default.dropdown-toggle
 , .sidebar a.bookmarklet-button
+, .form-control
   { background : #333 !important 
   ; border : 0 !important
   }
