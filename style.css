@@ -65,16 +65,14 @@ body
 , .create-post
 , .profile-controls
 , .sb-emt-title
-  { border-bottom-color : #666 !important }
-
-.pagetitle
-  { border-top-color : #666 !important }
-
-.settings-head div
+, .pagetitle
+, .settings-head div
 , .bem-page__post
 , .table td
 , .table th
 , hr
+, .avatar img
+, .post .post-userpic
   { border-color : #333 !important }
 
 .post-editor .post-textarea
