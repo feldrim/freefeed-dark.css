@@ -3,6 +3,7 @@
              {
 
 body
+, .sidebar
 , .expandable .expand-panel
   { background : #222 !important }
 
@@ -11,17 +12,18 @@ body
 , .content .box-footer
 , .arrow-span
 , .post
-, .sidebar
 , .sidebar-emt
 , .nodeAuth
 , .sh-item
 , .bootstrap-switch .bootstrap-switch-label
+, .show-sidebar
   { background : none !important }
 
 a
 , .expandable .expand-panel .expand-button
 , .bem-sidebar .bem-live-selector .bootstrap-switch-handle-off
 , .btn-link
+, header .mobile-sidebar-toggle
   { color : #666 !important }
 
 body
@@ -52,6 +54,10 @@ body
 , .bem-sidebar-userinfo__display-name
 , .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label
 , .bem-post__posted-to_feeds
+, input
+, button
+, select
+, textarea
   { color : #bbb !important }
 
 .post
@@ -73,6 +79,9 @@ body
 , hr
 , .avatar img
 , .post .post-userpic
+, .image-attachments .attachment
+, .new-post-feed
+, .removeable-item
   { border-color : #333 !important }
 
 .post-editor .post-textarea
@@ -90,12 +99,15 @@ body
 , .edit-txt-area
 , .input-group-addon
 , input
+, button
+, select
 , textarea
 , .bootstrap-switch
 , .bem-sidebar .bem-live-selector .bootstrap-switch-handle-on
 , .bem-sidebar .bem-live-selector .bootstrap-switch-handle-off
 , .bg-warning
 , .alert-warning
+, header .mobile-sidebar-toggle
   { background : #333 !important
   ; border : 0 !important
   }
@@ -159,6 +171,6 @@ body
   { fill : #222 !important }
 
 .likes-smile .icon
-  { color : #222 !important }
+  { color : #222 !important }               
 
 }
