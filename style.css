@@ -120,14 +120,14 @@ body
   { background : #444 !important }
 .comment.highlighted::before
   { border-color : #444 }
-  
+
 .comment:hover .reference-arrow
 , .comment.highlight-from-url
   { background : #333 !important
   ; color : #bbb !important
   }
 .comment.highlight-from-url::before
-  { border-color : #333 }    
+  { border-color : #333 }
 
 .comment:hover .reference-arrow:hover
   { background : #444 !important
@@ -158,24 +158,30 @@ body
   }
 
 .link-preview .folder-container .content-wrapper.folded::after
-  { background: -webkit-linear-gradient(
-                rgba(34, 34, 34, 0) 0%
-              , rgba(34, 34, 34, 0.2) 25%
-              , rgba(34, 34, 34, 0.8) 75%
-              , #222 100%
-              ) !important
-  ; background: -o-linear-gradient(
-                rgba(34, 34, 34, 0) 0%
-              , rgba(34, 34, 34, 0.2) 25%
-              , rgba(34, 34, 34, 0.8) 75%
-              , #222 100%
-              ) !important
-  ; background: linear-gradient(
-                rgba(34, 34, 34, 0) 0%
-              , rgba(34, 34, 34, 0.2) 25%
-              , rgba(34, 34, 34, 0.8) 75%
-              , #222 100%
-              ) !important
+  { background : -webkit-linear-gradient(
+                 rgba(34, 34, 34, 0) 0%
+               , rgba(34, 34, 34, 0.2) 25%
+               , rgba(34, 34, 34, 0.8) 75%
+               , #222 100%
+               ) !important
+  ; background : -o-linear-gradient(
+                 rgba(34, 34, 34, 0) 0%
+               , rgba(34, 34, 34, 0.2) 25%
+               , rgba(34, 34, 34, 0.8) 75%
+               , #222 100%
+               ) !important
+  ; background : linear-gradient(
+                 rgba(34, 34, 34, 0) 0%
+               , rgba(34, 34, 34, 0.2) 25%
+               , rgba(34, 34, 34, 0.8) 75%
+               , #222 100%
+               ) !important
+  }
+
+.fold-comments-sticky
+  { background : rgba(34, 34, 34, 0.9) !important
+  ; box-shadow : 0 0px 4px 8px
+                 rgba(34, 34, 34, 0.9) !important
   }
 
 .preview-expand
