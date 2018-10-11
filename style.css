@@ -1,4 +1,6 @@
-@-moz-document domain("freefeed.net") {
+@-moz-document domain("freefeed.net")
+             , domain("mokum.place")
+             {
 
 body
 , .expandable .expand-panel
@@ -13,10 +15,13 @@ body
 , .sidebar-emt
 , .nodeAuth
 , .sh-item
+, .bootstrap-switch .bootstrap-switch-label
   { background : none !important }
 
 a
 , .expandable .expand-panel .expand-button
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-off
+, .btn-link
   { color : #666 !important }
 
 body
@@ -38,6 +43,15 @@ body
 , .post-cont
 , h3
 , .sh-selected a
+, .form-control
+, label
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-on
+, .bem-post__likes
+, .alert-warning
+, .bem-sidebar-menu__title
+, .bem-sidebar-userinfo__display-name
+, .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label
+, .bem-post__posted-to_feeds
   { color : #bbb !important }
 
 .post
@@ -57,6 +71,10 @@ body
   { border-top-color : #666 !important }
 
 .settings-head div
+, .bem-page__post
+, .table td
+, .table th
+, hr
   { border-color : #333 !important }
 
 .post-editor .post-textarea
@@ -72,6 +90,14 @@ body
 , .sidebar a.bookmarklet-button
 , .form-control
 , .edit-txt-area
+, .input-group-addon
+, input
+, textarea
+, .bootstrap-switch
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-on
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-off
+, .bg-warning
+, .alert-warning
   { background : #333 !important
   ; border : 0 !important
   }
@@ -87,6 +113,12 @@ body
 , .new-post-feed
 , .removeable-item
   { background : #666 !important }
+
+.btn-success
+  { background : #666 !important
+  ; color : #bbb !important
+  ; border : 0 !important
+  }
 
 .search-form .search-input
   { margin-top : 0 !important
