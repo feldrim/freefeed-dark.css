@@ -24,6 +24,7 @@ a
 , .bem-sidebar .bem-live-selector .bootstrap-switch-handle-off
 , .btn-link
 , header .mobile-sidebar-toggle
+, .post .read-more
   { color : #666 !important }
 
 body
@@ -58,6 +59,8 @@ body
 , button
 , select
 , textarea
+, .Linkify
+, .bem-post__comment-text
   { color : #bbb !important }
 
 .post
@@ -108,8 +111,27 @@ body
 , .bg-warning
 , .alert-warning
 , header .mobile-sidebar-toggle
+, .comment.targeted-comment
   { background : #333 !important
   ; border : 0 !important
+  }
+
+.comment.highlighted
+  { background : #444 !important }
+.comment.highlighted::before
+  { border-color : #444 }
+  
+.comment:hover .reference-arrow
+, .comment.highlight-from-url
+  { background : #333 !important
+  ; color : #bbb !important
+  }
+.comment.highlight-from-url::before
+  { border-color : #333 }    
+
+.comment:hover .reference-arrow:hover
+  { background : #444 !important
+  ; color : #bbb !important
   }
 
 .search-form .search-button:hover
@@ -171,6 +193,6 @@ body
   { fill : #222 !important }
 
 .likes-smile .icon
-  { color : #222 !important }               
+  { color : #222 !important }
 
 }
