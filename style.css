@@ -8,7 +8,16 @@ body
 , .content .box-body
 , .content .box-footer
 , .arrow-span
+, .post
+, .sidebar
+, .sidebar-emt
+, .nodeAuth
+, .sh-item
   { background : none !important }
+
+a
+, .expandable .expand-panel .expand-button
+  { color : #666 !important }
 
 body
 , .box-header
@@ -26,11 +35,10 @@ body
 , .btn-default
 , .open > .btn-default.dropdown-toggle
 , .user-profile .profile-description
+, .post-cont
+, h3
+, .sh-selected a
   { color : #bbb !important }
-
-a
-, .expandable .expand-panel .expand-button
-  { color : #666 !important }
 
 .post
 , .profile
@@ -42,7 +50,14 @@ a
 , .box-header-search
 , .create-post
 , .profile-controls
+, .sb-emt-title
   { border-bottom-color : #666 !important }
+
+.pagetitle
+  { border-top-color : #666 !important }
+
+.settings-head div
+  { border-color : #333 !important }
 
 .post-editor .post-textarea
 , .comment .comment-textarea
@@ -56,6 +71,7 @@ a
 , .open > .btn-default.dropdown-toggle
 , .sidebar a.bookmarklet-button
 , .form-control
+, .edit-txt-area
   { background : #333 !important
   ; border : 0 !important
   }
@@ -67,6 +83,9 @@ a
 , .btn-default:focus, .btn-default.focus
 , .btn-default:active, .btn-default.active
 , .open > .btn-default.dropdown-toggle
+, .sh-selected
+, .new-post-feed
+, .removeable-item
   { background : #666 !important }
 
 .search-form .search-input
@@ -75,17 +94,20 @@ a
   }
 
 .link-preview .folder-container .content-wrapper.folded::after
-  { background: -webkit-linear-gradient( rgba(34, 34, 34, 0) 0%
+  { background: -webkit-linear-gradient(
+                rgba(34, 34, 34, 0) 0%
               , rgba(34, 34, 34, 0.2) 25%
               , rgba(34, 34, 34, 0.8) 75%
               , #222 100%
               ) !important
-  ; background: -o-linear-gradient( rgba(34, 34, 34, 0) 0%
+  ; background: -o-linear-gradient(
+                rgba(34, 34, 34, 0) 0%
               , rgba(34, 34, 34, 0.2) 25%
               , rgba(34, 34, 34, 0.8) 75%
               , #222 100%
               ) !important
-  ; background: linear-gradient( rgba(34, 34, 34, 0) 0%
+  ; background: linear-gradient(
+                rgba(34, 34, 34, 0) 0%
               , rgba(34, 34, 34, 0.2) 25%
               , rgba(34, 34, 34, 0.8) 75%
               , #222 100%
@@ -104,6 +126,9 @@ a
 , .comment .comment-icon .icon-comment-plus
 , .comment .comment-likes.clikes-zero .clikes-icon .icon-heart
 , .comment .comment-likes .clikes-icon .icon-heart
-  { fill : #222 }
+  { fill : #222 !important }
+
+.likes-smile .icon
+  { color : #222 !important }
 
 }
