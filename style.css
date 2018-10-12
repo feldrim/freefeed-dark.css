@@ -114,6 +114,8 @@ body
 , header .mobile-sidebar-toggle
 , .comment.targeted-comment
 , .alert
+, .actions-panel
+, .actions-panel .mention-actions
   { background : #333 !important
   ; border : 0 !important
   }
@@ -202,5 +204,8 @@ body
 
 .likes-smile .icon
   { color : #222 !important }
+
+.actions-overlay
+  { background-color : rgba(34, 34, 34, 0.8) }
 
 }
