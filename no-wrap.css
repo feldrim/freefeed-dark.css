@@ -1,0 +1,200 @@
+body
+, .sidebar
+, .expandable .expand-panel
+  { background : #222 !important }
+
+.sidebar .box-body
+, .content .box-body
+, .content .box-footer
+, .arrow-span
+, .post
+, .sidebar-emt
+, .nodeAuth
+, .sh-item
+, .bootstrap-switch .bootstrap-switch-label
+, .show-sidebar
+  { background : none !important }
+
+a
+, .expandable .expand-panel .expand-button
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-off
+, .btn-link
+, header .mobile-sidebar-toggle
+, .post .read-more
+  { color : #666 !important }
+
+body
+, .box-header
+, .box-header-empty
+, .box-header-timeline
+, .box-header-friends
+, .box-header-groups
+, .box-header-search
+, .post .post-body
+, .post .post-top .post-text
+, .post .post-body .post-text
+, .Select-value-label-standalone
+, .Select--multi .Select-value
+, .profile .description
+, .btn-default
+, .open > .btn-default.dropdown-toggle
+, .user-profile .profile-description
+, .post-cont
+, h3
+, .sh-selected a
+, .form-control
+, label
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-on
+, .bem-post__likes
+, .alert-warning
+, .bem-sidebar-menu__title
+, .bem-sidebar-userinfo__display-name
+, .Select-control .Select-value .Select-value-label
+, .bem-post__posted-to_feeds
+, input
+, button
+, select
+, textarea
+, .Linkify
+, .bem-post__comment-text
+, .alert
+  { color : #bbb !important }
+
+.post
+, .profile
+, .box-header
+, .box-header-empty
+, .box-header-timeline
+, .box-header-friends
+, .box-header-groups
+, .box-header-search
+, .create-post
+, .profile-controls
+, .sb-emt-title
+, .pagetitle
+, .settings-head div
+, .bem-page__post
+, .table td
+, .table th
+, hr
+, .avatar img
+, .post .post-userpic
+, .image-attachments .attachment
+, .new-post-feed
+, .removeable-item
+  { border-color : #333 !important }
+
+.post-editor .post-textarea
+, .comment .comment-textarea
+, .search-form .search-input
+, .Select-value-label-standalone
+, .Select--multi .Select-value
+, .Select-control
+, .search-form .search-button
+, .image-attachments .image-attachment-link
+, .btn-default
+, .open > .btn-default.dropdown-toggle
+, .sidebar a.bookmarklet-button
+, .form-control
+, .edit-txt-area
+, .input-group-addon
+, input
+, button:not(.pswp__button)
+, select
+, textarea
+, .bootstrap-switch
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-on
+, .bem-sidebar .bem-live-selector .bootstrap-switch-handle-off
+, .bg-warning
+, .alert-warning
+, header .mobile-sidebar-toggle
+, .comment.targeted-comment
+, .alert
+  { background : #333 !important
+  ; border : 0 !important
+  }
+
+.comment.highlighted
+  { background : #444 !important }
+.comment.highlighted::before
+  { border-color : #444 }
+
+.comment:hover .reference-arrow
+, .comment.highlight-from-url
+  { background : #333 !important
+  ; color : #bbb !important
+  }
+.comment.highlight-from-url::before
+  { border-color : #333 }
+
+.comment:hover .reference-arrow:hover
+  { background : #444 !important
+  ; color : #bbb !important
+  }
+
+.search-form .search-button:hover
+, .search-form .search-button:focus
+, .search-form .search-button:active
+, .btn-default:hover
+, .btn-default:focus, .btn-default.focus
+, .btn-default:active, .btn-default.active
+, .open > .btn-default.dropdown-toggle
+, .sh-selected
+, .new-post-feed
+, .removeable-item
+  { background : #666 !important }
+
+.btn-success
+  { background : #666 !important
+  ; color : #bbb !important
+  ; border : 0 !important
+  }
+
+.search-form .search-input
+  { margin-top : 0 !important
+  ; padding : 2px 4px !important
+  }
+
+.link-preview .folder-container .content-wrapper.folded::after
+  { background : -webkit-linear-gradient(
+                 rgba(34, 34, 34, 0) 0%
+               , rgba(34, 34, 34, 0.2) 25%
+               , rgba(34, 34, 34, 0.8) 75%
+               , #222 100%
+               ) !important
+  ; background : -o-linear-gradient(
+                 rgba(34, 34, 34, 0) 0%
+               , rgba(34, 34, 34, 0.2) 25%
+               , rgba(34, 34, 34, 0.8) 75%
+               , #222 100%
+               ) !important
+  ; background : linear-gradient(
+                 rgba(34, 34, 34, 0) 0%
+               , rgba(34, 34, 34, 0.2) 25%
+               , rgba(34, 34, 34, 0.8) 75%
+               , #222 100%
+               ) !important
+  }
+
+.fold-comments-sticky
+  { background : rgba(34, 34, 34, 0.9) !important
+  ; box-shadow : 0 0px 4px 8px
+                 rgba(34, 34, 34, 0.9) !important
+  }
+
+.preview-expand
+  { padding-bottom : 8px !important }
+
+.comment-icon i.fa-inverse
+  { display : none !important }
+
+.likes .likes-icon .icon-heart
+, .comment .comment-icon.comment-icon-special .icon-comment
+, .comment .comment-icon .icon-comment
+, .comment .comment-icon .icon-comment-plus
+, .comment .comment-likes.clikes-zero .clikes-icon .icon-heart
+, .comment .comment-likes .clikes-icon .icon-heart
+  { fill : #222 !important }
+
+.likes-smile .icon
+  { color : #222 !important }
