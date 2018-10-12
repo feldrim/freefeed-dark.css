@@ -1,6 +1,8 @@
 body
 , .sidebar
 , .expandable .expand-panel
+, .phui-oi
+, .phui-basic-nav .phabricator-side-menu
   { background : #222 !important }
 
 .sidebar .box-body
@@ -13,6 +15,8 @@ body
 , .sh-item
 , .bootstrap-switch .bootstrap-switch-label
 , .show-sidebar
+, .phui-document-container
+, .phui-document-content
   { background : none !important }
 
 a
@@ -21,6 +25,9 @@ a
 , .btn-link
 , header .mobile-sidebar-toggle
 , .post .read-more
+, .phui-property-list-key
+, .phui-crumbs-view a.phui-crumb-view
+, .phui-crumbs-view a.phui-crumbs-action
   { color : #666 !important }
 
 body
@@ -58,6 +65,16 @@ body
 , .Linkify
 , .bem-post__comment-text
 , .alert
+, .phui-property-list-value
+, .phui-header-header
+, .phui-header-subheader
+, .phui-header-subheader .policy-link
+, .phui-icon-view.bluegrey
+, .phui-document-view-pro .phui-document-toc-header
+, .phui-icon-view
+, pre
+, .phui-crumbs-view
+, .phui-basic-nav .phabricator-side-menu .phui-list-item-type-label
   { color : #bbb !important }
 
 .post
@@ -112,6 +129,26 @@ body
 , .alert
 , .actions-panel
 , .actions-panel .mention-actions
+, .phui-crumbs-view
+, .phui-theme-indigo .phabricator-main-menu-background
+, hr
+, .policy-header-callout
+, .phui-header-subheader .phui-tag-core
+, button.grey
+, input[type="submit"].grey
+, a.grey
+, a.grey:visited
+, button.simple
+, input[type="submit"].simple
+, a.simple
+, a.simple:visited
+, .aphront-dialog-view
+, .aphront-dialog-body
+, .aphront-dialog-tail
+, .phuix-dropdown-menu
+, .phui-document-view-pro .phui-document-toc-list
+, .phui-box-border
+, pre
   { background : #333 !important
   ; border : 0 !important
   }
@@ -119,20 +156,30 @@ body
 .comment.highlighted
   { background : #444 !important }
 .comment.highlighted::before
+, .phui-info-severity-notice
   { border-color : #444 }
 
 .comment:hover .reference-arrow
 , .comment.highlight-from-url
+, .phui-info-view
   { background : #333 !important
   ; color : #bbb !important
   }
 .comment.highlight-from-url::before
+, .post::after
   { border-color : #333 }
 
 .comment:hover .reference-arrow:hover
+, .phui-policy-section-view-header
+, .phabricator-remarkup tt.remarkup-monospaced
   { background : #444 !important
   ; color : #bbb !important
   }
+.phui-policy-section-view-header
+, .phui-header-shell
+, .phui-object-box .phui-oi-list-view .phui-oi-frame
+, .application-search-view .application-search-results .phui-profile-header
+  { border-color : #444 }
 
 .search-form .search-button:hover
 , .search-form .search-button:focus
@@ -147,6 +194,7 @@ body
   { background : #666 !important }
 
 .btn-success
+, .phabricator-remarkup-embed-image
   { background : #666 !important
   ; color : #bbb !important
   ; border : 0 !important
