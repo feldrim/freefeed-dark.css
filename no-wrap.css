@@ -98,8 +98,8 @@ body
 , .form-control
 , .edit-txt-area
 , .input-group-addon
-, input
-, button:not(.pswp__button)
+, input:not( [type="image"] )
+, button:not( .pswp__button )
 , select
 , textarea
 , .bootstrap-switch
