@@ -53,7 +53,7 @@ body
 , .alert-warning
 , .bem-sidebar-menu__title
 , .bem-sidebar-userinfo__display-name
-, .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label
+, .Select-control .Select-value .Select-value-label
 , .bem-post__posted-to_feeds
 , input
 , button
@@ -61,6 +61,7 @@ body
 , textarea
 , .Linkify
 , .bem-post__comment-text
+, .alert
   { color : #bbb !important }
 
 .post
@@ -102,7 +103,7 @@ body
 , .edit-txt-area
 , .input-group-addon
 , input
-, button
+, button:not(.pswp__button)
 , select
 , textarea
 , .bootstrap-switch
@@ -112,6 +113,7 @@ body
 , .alert-warning
 , header .mobile-sidebar-toggle
 , .comment.targeted-comment
+, .alert
   { background : #333 !important
   ; border : 0 !important
   }
