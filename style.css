@@ -2,13 +2,6 @@
              , domain("mokum.place")
              {
 
-body
-, .sidebar
-, .expandable .expand-panel
-, .phui-oi
-, .phui-basic-nav .phabricator-side-menu
-  { background : #222 !important }
-
 .sidebar .box-body
 , .content .box-body
 , .content .box-footer
@@ -153,6 +146,7 @@ body
 , .phui-document-view-pro .phui-document-toc-list
 , .phui-box-border
 , pre
+, .auth-account-view
   { background : #333 !important
   ; border : 0 !important
   }
@@ -255,5 +249,16 @@ body
 
 .actions-overlay
   { background-color : rgba(34, 34, 34, 0.8) }
+
+body
+, .sidebar
+, .expandable .expand-panel
+, .phui-oi
+, .phui-basic-nav .phabricator-side-menu
+, .aphront-form-input input
+, .aphront-form-control input
+, .phui-two-column-view .phui-two-column-header
+, .auth-account-view
+  { background : #222 !important }
 
 }
