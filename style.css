@@ -150,6 +150,7 @@ body
 , .phui-box-border
 , pre
 , .auth-account-view
+, .hovercard
   { background : #333 !important
   ; border : 0 !important
   }
@@ -158,7 +159,8 @@ body
   { background : #444 !important }
 .comment.highlighted::before
 , .phui-info-severity-notice
-  { border-color : #444 }
+, .subscribe-controls
+  { border-color : #444 !important }
 
 .comment:hover .reference-arrow
 , .comment.highlight-from-url
@@ -168,7 +170,7 @@ body
   }
 .comment.highlight-from-url::before
 , .post::after
-  { border-color : #333 }
+  { border-color : #333 !important }
 
 .comment:hover .reference-arrow:hover
 , .phui-policy-section-view-header
@@ -180,7 +182,7 @@ body
 , .phui-header-shell
 , .phui-object-box .phui-oi-list-view .phui-oi-frame
 , .application-search-view .application-search-results .phui-profile-header
-  { border-color : #444 }
+  { border-color : #444 !important }
 
 .search-form .search-button:hover
 , .search-form .search-button:focus
@@ -229,7 +231,7 @@ body
 
 .fold-comments-sticky
   { background : rgba(34, 34, 34, 0.9) !important
-  ; box-shadow : 0 0px 4px 8px
+  ; box-shadow : 0 0 4px 8px
                  rgba(34, 34, 34, 0.9) !important
   }
 
@@ -251,7 +253,7 @@ body
   { color : #222 !important }
 
 .actions-overlay
-  { background-color : rgba(34, 34, 34, 0.8) }
+  { background-color : rgba(34, 34, 34, 0.8) !important }
 
 body
 , .sidebar
