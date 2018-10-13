@@ -109,7 +109,10 @@ body
 , .edit-txt-area
 , .input-group-addon
 , input:not( [type="image"] )
-, button:not( .pswp__button )
+, button:not( .pswp__button 
+       ):not( .ril__toolbarItemChild 
+       ):not( .ril__navButtons 
+       )
 , select
 , textarea
 , .bootstrap-switch
