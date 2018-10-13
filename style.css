@@ -72,6 +72,7 @@ body
 , pre
 , .phui-crumbs-view
 , .phui-basic-nav .phabricator-side-menu .phui-list-item-type-label
+, .card-body .display-name
   { color : #bbb !important }
 
 .post
