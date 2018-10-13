@@ -21,6 +21,7 @@ a
 , .phui-property-list-key
 , .phui-crumbs-view a.phui-crumb-view
 , .phui-crumbs-view a.phui-crumbs-action
+, .user-card .user-card-actions a
   { color : #666 !important }
 
 body
@@ -69,6 +70,10 @@ body
 , .phui-crumbs-view
 , .phui-basic-nav .phabricator-side-menu .phui-list-item-type-label
 , .card-body .display-name
+, .user-card .username
+, .user-card .feed-status
+, .user-card .relationship-status
+, .user-card .user-card-actions
   { color : #bbb !important }
 
 .post
@@ -93,6 +98,8 @@ body
 , .image-attachments .attachment
 , .new-post-feed
 , .removeable-item
+, .bem-sidebar-menu__divider
+, .bem-page__phone-navigation
   { border-color : #333 !important }
 
 .post-editor .post-textarea
@@ -110,9 +117,9 @@ body
 , .edit-txt-area
 , .input-group-addon
 , input:not( [type="image"] )
-, button:not( .pswp__button 
-       ):not( .ril__toolbarItemChild 
-       ):not( .ril__navButtons 
+, button:not( .pswp__button
+       ):not( .ril__toolbarItemChild
+       ):not( .ril__navButtons
        )
 , select
 , textarea
@@ -148,11 +155,17 @@ body
 , pre
 , .auth-account-view
 , .hovercard
+, .comment-likes .comment-likes-list
+, .user-card
+, .user-card .user-card-info
+, .user-card .user-card-actions
+, .userpic
   { background : #333 !important
   ; border : 0 !important
   }
 
 .comment.highlighted
+, .table-striped tbody tr:nth-of-type(2n)
   { background : #444 !important }
 .comment.highlighted::before
 , .phui-info-severity-notice
@@ -162,6 +175,7 @@ body
 .comment:hover .reference-arrow
 , .comment.highlight-from-url
 , .phui-info-view
+, .table-striped tbody tr:nth-of-type(2n+1)
   { background : #333 !important
   ; color : #bbb !important
   }
